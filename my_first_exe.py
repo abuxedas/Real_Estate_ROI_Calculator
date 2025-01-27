@@ -31,6 +31,7 @@ def realizar_calculo():
         etiqueta_retorno_bruto_sin_revalor.config(text=f"Retorno Bruto sin revalorización: {retorno_bruto_sin_revalor}")
         etiqueta_retorno_neto_sin_revalor.config(text=f"Retorno Neto sin revalorización: {retorno_neto_sin_revalor}")
         etiqueta_prueba.config(text=f"prueba: {prueba}")
+#
 
     except ValueError:
         # Manejar errores si no se ingresan números válidos
